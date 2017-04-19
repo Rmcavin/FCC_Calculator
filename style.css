@@ -1,0 +1,166 @@
+body {
+  background-color: lightgrey;
+}
+
+.calculator {
+  background-color: rgb(107,148,158);
+  height: auto;
+  width: 440px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+  margin: auto;
+  border-radius: 20px;
+  display: grid;
+  grid-gap: 10px 10px;
+  box-shadow: 10px 10px 5px rgb(58,83,89);
+}
+
+.readOut {
+  background-color: black;
+  border-radius: 10px;
+  height: 85px;
+}
+
+.item {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(202,217,220);
+  box-shadow: 3px 3px 2px rgb(58,83,89);
+  border-top: none;
+  border-left: none;
+  border-bottom: rgb(58,83,89) 2px;
+  border-right: rgb(58,83,89) 2px;
+  border-radius: 5px;
+}
+
+
+/*SCREEN*/
+.calculator .readOut {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+/*CLEAR*/
+.calculator .clear {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+/*COLUMN ONE */
+.calculator .seven {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.calculator .four {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.calculator .one {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.calculator .decimal {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+/*COLUMN TWO */
+.calculator .eight {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.calculator .five {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.calculator .two {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.calculator .zero{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+/*COLUMN THREE */
+
+.calculator .nine {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.calculator .six {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.calculator .three {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.calculator .opp5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+/* COLUMN FOUR */
+.calculator .opp1 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.calculator .opp2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.calculator .opp3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.calculator .opp4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
