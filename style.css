@@ -51,7 +51,6 @@ body {
 }
 .item {
   height: 50px;
-  /*width: 100px;*/
   background-color: rgb(202,217,220);
   box-shadow: 3px 3px 2px rgb(58,83,89);
   border-top: none;
@@ -63,7 +62,6 @@ body {
 
 .special {
   height: 50px;
-  /*width: 100px;*/
   background-color: rgb(202,217,220);
   box-shadow: 3px 3px 2px rgb(58,83,89);
   border-top: none;
