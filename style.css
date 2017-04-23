@@ -79,6 +79,20 @@ body {
   }
 }
 
+.footer {
+  text-align: center;
+  color: white;
+  background-color: rgb(58,83,89);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 10px;
+}
+
+a {
+  color:rgb(202,217,220);
+}
 
 /*SCREEN*/
 .calculator .readOut {
