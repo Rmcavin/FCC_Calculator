@@ -18,6 +18,7 @@ $(document).ready(function() {
     answer = eval(expression);
     $(".readOut").html(answer);
     console.log(answer);
-    expression = answer;
+    expression = answer.toString();
+    console.log(expression);
   });
 });

@@ -49,6 +49,7 @@ body {
 	background-color: #000000;
 	border: 2px solid #555555;
 }
+
 .item {
   height: 50px;
   background-color: rgb(202,217,220);
@@ -74,6 +75,7 @@ body {
 @media screen and (max-width: 500px) {
   .calculator {
     width: 100%;
+    max-width: 500px;
   }
 }
 
