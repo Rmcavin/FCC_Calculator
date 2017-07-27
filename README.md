@@ -1,6 +1,8 @@
 # FCC_Calculator
 A Javascript calculator for Free Code Camp
 
+![Calculator](calcThumbnail.png "Calculator")
+
 ## Live demo
 [Calculator Demo](https://rmcavin.github.io/FCC_Calculator/)
 
